@@ -170,12 +170,12 @@ cython_debug/
 .DS_Store
 
 # don't ignore MAST files
-!wasp12_tess_s0043_dvt.fits
-!wasp12_tess_s0043_lc.fits
-!wasp12_tess_s0043_tp.fits
-!wasp12_tess_s0045_dvt.fits
-!wasp12_tess_s0045_lc.fits
-!wasp12_tess_s0045_tp.fits
-!wasp12_tess_s0071_dvt.fits
-!wasp12_tess_s0071_lc.fits
-!wasp12_tess_s0071_tp.fits
+#!wasp12_tess_s0043_dvt.fits
+#!wasp12_tess_s0043_lc.fits
+#!wasp12_tess_s0043_tp.fits
+#!wasp12_tess_s0045_dvt.fits
+#!wasp12_tess_s0045_lc.fits
+#!wasp12_tess_s0045_tp.fits
+#!wasp12_tess_s0071_dvt.fits
+#!wasp12_tess_s0071_lc.fits
+#!wasp12_tess_s0071_tp.fits

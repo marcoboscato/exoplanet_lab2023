@@ -161,7 +161,7 @@ cython_debug/
 
 # ignore all the fits file id bias, data, and flat
 *.fits
-*.list
+#*.list
 
 # ignore all the pdf file
 *.pdf

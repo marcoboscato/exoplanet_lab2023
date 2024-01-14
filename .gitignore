@@ -179,3 +179,7 @@ cython_debug/
 #!wasp12_tess_s0071_dvt.fits
 #!wasp12_tess_s0071_lc.fits
 #!wasp12_tess_s0071_tp.fits
+
+
+# emcee file 
+emcee_sampler_first_run.p

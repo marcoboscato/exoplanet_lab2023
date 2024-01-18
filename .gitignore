@@ -183,6 +183,7 @@ cython_debug/
 
 # emcee file 
 emcee_sampler_first_run.p
+emcee_sampler_second_run.p
 
 # images
 images/

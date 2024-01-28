@@ -177,7 +177,7 @@ class AperturePhotometry:
 
             aperture_selection = (target_distance < self.aperture_radius)
             self.aperture[ii_science] =  np.sum(science_sky_corrected[aperture_selection])
-            self.aperture_errors[ii_science] = np.sum(science_sky_corrected_errors[aperture_selection]) #da controllare
+            self.aperture_errors[ii_science] = np.sqrt(np.sum(science_sky_corrected_errors[aperture_selection]**2.)) #da controllare
 
             #4) step
             #target_distance = np.sqrt((self.X-x_target_refined)**2 + (self.Y-y_target_refined)**2) già ce l'ho
